@@ -7,6 +7,7 @@
 
 .caixa-superior{
     background-image: url("./dev.png");
+    background-size: cover;
     height: 90vh;
 }
 
@@ -26,8 +27,8 @@
     color: #ffffff;
     display: inline;
     margin-left: 20px;
-    cursor: pointer;
-
+    cursor: pointer; 
+    text-decoration: none;
 }
 
 h1{
@@ -39,6 +40,8 @@ h1{
 }
 
 form{
+    opacity: 0;
+    transition: opacity 1s linear;
     background-color: #ffffff;
     border-radius: 10px;
     float: right;
@@ -47,6 +50,10 @@ form{
     position: relative;
     bottom: 70px;
     
+}
+
+.mostrar-formulario{
+    opacity: 1;
 }
 
 input{
@@ -101,12 +108,13 @@ button{
     margin-bottom: 50px;
 }
 
-.titulo-meio{
+#titulo-meio{
     font-size: 40px;
     color: #252b42;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    
 }
 
 .card{
@@ -138,11 +146,12 @@ li{
 
 }
 
-.titulo-inferior{
+#titulo-inferior{
     color: #ffffff;
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
+    
 }
 
 .paragrafo-inferior{
