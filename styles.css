@@ -1,45 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-.caixa-superior{
-    background-image: url("./dev.png");
+.caixa-superior {
+    background-image: url('./dev.png');
     background-size: cover;
     height: 90vh;
 }
 
-.cabecalho{
+.cabecalho {
     padding-top: 25px;
     padding-left: 35px;
 }
 
-.titulo-cabecalho{
+.titulo-cabecalho {
     font-size: 24px;
     color: #ffffff;
     display: inline;
 }
 
-.link-cabecalho{
+.link-cabecalho {
     font-size: 14px;
     color: #ffffff;
     display: inline;
     margin-left: 20px;
-    cursor: pointer; 
+    cursor: pointer;
     text-decoration: none;
 }
 
-h1{
+h1 {
     font-size: 58px;
-    color: #FFFFFF;
+    color: #ffffff;
     position: relative;
     top: 280px;
     margin-left: 35px;
 }
 
-form{
+form {
     opacity: 0;
     transition: opacity 1s linear;
     background-color: #ffffff;
@@ -49,14 +49,13 @@ form{
     margin-right: 50px;
     position: relative;
     bottom: 70px;
-    
 }
 
-.mostrar-formulario{
+.mostrar-formulario {
     opacity: 1;
 }
 
-input{
+input {
     display: block;
     background: #f9f9f9;
     border: 1px solid #e6e6e6;
@@ -65,34 +64,32 @@ input{
     width: 250px;
     margin-bottom: 20px;
     padding-left: 10px;
-
 }
 
-textarea{
+textarea {
     display: block;
     height: 80px;
     width: 250px;
     background: #f9f9f9;
     border: 1px solid #e6e6e6;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-bottom: 20px;
     padding-left: 10px;
-
 }
 
-.titulo-formulario{
+.titulo-formulario {
     font-size: 24px;
     color: #252b42;
     margin-bottom: 30px;
     text-align: center;
 }
 
-label{
+label {
     font-size: 14px;
     color: #252b42;
 }
 
-button{
+button {
     width: 250px;
     height: 40px;
     cursor: pointer;
@@ -102,29 +99,28 @@ button{
     color: #ffffff;
 }
 
-.caixa-central{
+.caixa-central {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
-#titulo-meio{
+#titulo-meio {
     font-size: 40px;
     color: #252b42;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    
 }
 
-.card{
+.card {
     width: 300px;
     border-radius: 10px;
     background-color: #ffffff;
     border: 1px solid #a9d6ff;
 }
 
-.titulo-card{
+.titulo-card {
     background: #219653;
     color: #ffffff;
     text-align: center;
@@ -132,29 +128,27 @@ button{
     border-radius: 10px 10px 0 0;
 }
 
-ul{
+ul {
     padding: 20px;
 }
 
-li{
+li {
     margin-bottom: 5px;
     margin-left: 10px;
 }
 
-.caixa-inferior{
+.caixa-inferior {
     background-color: #00095d;
-
 }
 
-#titulo-inferior{
+#titulo-inferior {
     color: #ffffff;
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
-    
 }
 
-.paragrafo-inferior{
+.paragrafo-inferior {
     font-size: 18px;
     color: #ffffff;
     text-align: center;

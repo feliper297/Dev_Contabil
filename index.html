@@ -15,44 +15,44 @@
 <body>
     <div class="caixa-superior">
         <div class="cabecalho">
-        <h2 class="titulo-cabecalho">Dev Contábil</h2>
-        <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
-        <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
-        <a class="link-cabecalho" onclick="chameOAbacate()">Contato</a>
+            <h2 class="titulo-cabecalho">Dev Contábil</h2>
+            <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
+            <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
+            <a class="link-cabecalho" onclick="chameOAbacate()">Contato</a>
+        </div>
+
+        <h1>Dev Contábil</h1>
+
+        <form id="formulario-contato" action="https://formsubmit.co/feliper297@gmail.com" method="POST">
+            <h3 class="titulo-formulario">Entre em contato</h3>
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite seu Nome" required />
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" name="email" placeholder="Digite seu E-mail" required />
+            </label>
+
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu telefone" required />
+            </label>
+
+            <label>
+                Fale Conosco
+                <textarea name="info" placeholder="Qual sua dúvida?"></textarea>
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
     </div>
 
-    <h1>Dev Contábil</h1>
+    <h2 id="titulo-meio">Nossos serviços</h2>
 
-    <form id="formulario-contato" action="https://formsubmit.co/feliper297@gmail.com" method="POST">
-        <h3 class="titulo-formulario">Entre em contato</h3>
-        <label>
-            Nome
-            <input type="text" name="Nome" placeholder="Digite seu Nome" required/>
-        </label>
-
-        <label>
-            E-mail
-            <input type="email" name="email" placeholder="Digite seu E-mail" required/>
-        </label>
-
-        <label>
-            WhatsApp
-            <input type="tel" name="telefone" placeholder="Digite seu telefone" required/>
-        </label>
-
-        <label>
-            Fale Conosco
-            <textarea name="info" placeholder="Qual sua dúvida?"></textarea>
-        </label>
-
-        <button type="submit">Enviar</button>
-    </form>
-    </div>
-
-        <h2 id="titulo-meio">Nossos serviços</h2>
-
-        <div class="caixa-central">
-            <div class="card">
+    <div class="caixa-central">
+        <div class="card">
             <h3 class="titulo-card">Contabilidade Completa</h3>
             <ul>
                 <li>Primeiro item da lista</li>
@@ -117,16 +117,16 @@
 </body>
 <script>
     let formulario = document.getElementById("formulario-contato")
-   
-    
 
-    function chameOAbacate(){
+
+
+    function chameOAbacate() {
         formulario.className = "mostrar-formulario"
-        
+
     }
 
-    
-    
+
+
 </script>
 
 </html>
