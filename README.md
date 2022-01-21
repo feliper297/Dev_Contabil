@@ -14,19 +14,8 @@
 
 **https://rodolfomori.com.br/**
 
-<<<<<<< HEAD
-​     :pen:**link da interface** :pen:
+ :pen:**link da interface do projeto** :pen:
 
 **https://devcontabiltop.netlify.app/**
 
 
-
-
-
-
-
-=======
--------------------
-**link da interface do projeto**
-https://devcontabiltop.netlify.app/
->>>>>>> a89d9178801ebcdeed2ca1fd840cadddfb51cd94
