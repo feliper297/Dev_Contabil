@@ -1,4 +1,4 @@
-## Projeto Desenvolvido durante a realização do evento PROGRAMAÇÃO DO ZERO, que foi realizado entre 10/01/2022 a 14/01/2022 pelo Rodolfo Mori
+## Projeto Desenvolvido durante a realização do evento PROGRAMAÇÃO DO ZERO, que foi realizado entre 10/01/2022 a 14/01/2022 pelo @rodolfomori
 
 ![](C:\Users\felip\OneDrive\Imagens\12.png)
 
